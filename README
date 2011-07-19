@@ -10,7 +10,7 @@ Copyright (C) 2011 Germán A. Racca - gracca[AT]gmail[DOT]com
 License: GPLv3+
 
 
-How to install	:
+How to install
 --------------
 
 Copy this script to nautilus scripts directory:
@@ -25,6 +25,8 @@ Make it executable:
 
 $ chmod +x ~/.gnome2/nautilus-scripts/set-background-gnome3
 
-Open nautilus in your pictures folder, right click on an image file, go to Scripts menue and select set-background-gnome3.
+Open nautilus in your pictures folder, right click on an image file,
+go to Scripts menue and select set-background-gnome3.
 
 Have fun!
+
