@@ -3,15 +3,23 @@ Set background in Gnome 3
 
 Nautilus script to change background in Gnome 3.
 
-You need to install Zenity to run this script.
+You need to install Zenity¹ to run this script.
 
 Copyright (C) 2011 Germán A. Racca
 
 License: GPLv3+
 
 
-How to install
---------------
+How to install/uninstall with Makefile
+--------------------------------------
+
+$ make install
+
+$ make uninstall
+
+
+How to install/uninstall manually
+---------------------------------
 
 Copy this script to nautilus scripts directory:
 
@@ -21,12 +29,19 @@ Make it executable:
 
 $ chmod +x ~/.gnome2/nautilus-scripts/set-background-gnome3
 
+To remove it:
+
+$ rm -f ~/.gnome2/nautilus-scripts/set-background-gnome3
+
 
 How to run
 ----------
 
-Open nautilus in your pictures folder, right click on an image file,
+Open Nautilus in your pictures folder, right click on an image file,
 go to Scripts menu and select set-background-gnome3.
 
 Have fun!
+
+---
+¹http://directory.fsf.org/project/zenity/
 
